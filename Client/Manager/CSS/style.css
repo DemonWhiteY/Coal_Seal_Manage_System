@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.navbar {
+    background-color: #1b63b0;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.main-content {
+    flex: 3;
+    margin-right: 20px;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #ffffff;
+    border: 1px solid #1b63b0;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+th,
+td {
+    border-width: 1px;
+    border-color: transparent;
+    padding: 10px;
+    text-align: center;
+}
+
+tr.odd {
+    background-color: rgb(194, 197, 201);
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+th {
+    background-color: #1b63b0;
+    color: white;
+}
+
+
+
+
+.index-navcontiner {
+    background-color: #1b63b0;
+    width: 100%;
+    height: 53px;
+    position: sticky;
+    top: 1px;
+    z-index: 2;
+
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+
+    border-bottom: 4px solid #fcfafa;
+}
+
+input[type="number"] {
+    background-color: transparent;
+    /* 设置背景为透明 */
+    border: 1px solid #ccc;
+    /* 可选，设置边框 */
+    width: 50px;
+    height: 20px;
+    padding: 0px;
+    font-size: 10px;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.searchfirst {
+
+    width: 50%;
+    margin: auto;
+    border: 30px;
+    border: black;
+    position: absolute;
+    top: 800px;
+    left: 450px;
+
+}
+
+.searchsubmit {
+    width: 5%;
+    height: 5%;
+
+
+}
+
+.searchbox {
+    height: 250px;
+    width: 100%;
+    align-items: center;
+}
+
+.text {
+    align-self: center;
+    display: inline-block;
+    border: 0;
+    width: 750px;
+    height: 35px;
+    font-size: 20px;
+    outline: none;
+    background-color: #ffffff00;
+    border-radius: 30px;
+    border: 2px solid #0d0000;
+}
